@@ -1,0 +1,19 @@
+{
+  "name": "funtime-currency-bot",
+  "version": "1.0.0",
+  "description": "Mineflayer bot для автоматической выдачи валюты на сервере Funtime",
+  "main": "simple_bot.js",
+  "scripts": {
+    "start": "node simple_bot.js",
+    "test": "node simple_bot.js test",
+    "pay": "node simple_bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.17.0",
+    "mineflayer-pathfinder": "^2.4.0",
+    "prismarine-chat": "^1.10.0"
+  },
+  "keywords": ["minecraft", "mineflayer", "funtime", "currency"],
+  "author": "FunPayCardinal Plugin",
+  "license": "MIT"
+}
